@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Forest-landscape dynamics: Terrestrial Laser Scanning as a tool to link forest structure and landscape form in 3D</title>
+
+		<meta name="description" content="Forest-landscape dynamics: Terrestrial Laser Scanning as a tool to link forest structure and landscape form in 3D">
+		<meta name="author" content="Stuart Grieve">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="reveal/css/reset.css">
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+    <link rel="stylesheet" href="reveal/css/custom.css">
+		<link rel="stylesheet" href="reveal/css/theme/night.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+<section data-markdown>
+<textarea data-template>
+
+![a forest at dusk](img/title.png) <!-- .element width="90%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Forests and landscapes are interconnected, reflecting the interplay of climate, biology, lithology, hydrology and people
+
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Forests and landscapes
+
+Often when we study one, we simplify the other:
+
+![Text from a paper about removing elevation](img/detrend.png) <!-- .element width="80%" -->
+
+![Schematic of a tree](img/gabet_tree.png) <!-- .element width="40%" -->
+
+<p class="caption"><a href="https://doi.org/10.1146/annurev.earth.31.100901.141314">Gabet et al., 2003</a>|<a href="https://doi.org/10.1016/j.foreco.2022.120733">Yrttimaa et al., 2023</a> </p>
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Forests and landscapes
+
+Or we seek homogeneity:
+
+![Pine Plantation](img/pine-plantation.jpg) <!-- .element width="65%" -->
+
+[USDA](https://en.wikipedia.org/wiki/Tree_plantation#/media/File:Pinus_taeda_plantation.jpg) <!-- .element: class="caption" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### What do we lose when we remove complexity?
+
+![A complex forest in Finland](img/finland-complex.jpg) <!-- .element width="68%" class="plain"-->
+
+</textarea>
+</section>
+
+<section>
+    <h3><a href=https://doi.org/10.1016/j.ppees.2013.07.002>FUNDIV Plots</a></h3>
+    <div class="ulist">
+        <img class="plain" src="img/map2.jpg" alt="fundiv map" width="55%" style="float: right">
+        <ul style="list-style: none; width: 40%;">
+          <li><p>Established in 2011</p>
+              <li><p>20-30 forest plots per country</p>
+              <li><p>Variable species richness</p>
+              <li><p>Minimal management</p>
+              </li>
+              <li><p>Long term inventory data</p>
+            </li>
+            </li>
+            </li>
+          </li>
+        </ul>
+    </div>
+    <!-- -->
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Data collection strategy
+
+- Work in Spain, Poland, Finland to give a climate gradient
+- Minimum of 20 plots per country
+- Visited twice to capture 3D growth over ~3 years
+- Couple traditional measurements with modern tools
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Data collection strategy
+
+![Showing a TLS, small drone, big done and hand dbh measurements](img/methods.png) <!-- .element width="100%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Data collection strategy
+
+![Images of the same tree from our 3 different scanners](img/1-tree-3-scanners.png) <!-- .element width="80%" class="plain"-->
+
+[Lines et al., 2022](https://doi.org/10.1111/1365-2745.13944) <!-- .element: class="caption" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Data collection strategy
+
+![Finnish forest with scanner and targets laid out](img/scan-strategy.jpg) <!-- .element width="80%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Capturing complexity
+
+![Spain forest animation](img/forest-ani.gif) <!-- .element width="90%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Capturing complexity
+
+![Render of a scan of a polish forest](img/tls-render-1.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Capturing complexity
+
+![Render of a scan of a polish forest](img/tls-render-2.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Capturing complexity
+
+![Render of a scan of a polish forest](img/tls-render-3.png) <!-- .element width="100%" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Complex data is complex!
+
+- How do we go from unstructured pointclouds to something useful?
+
+- Can we segment out individual trees, leaves and wood?
+
+- Can we extract topography?
+
+</textarea>
+</section>
+
+
+<section>
+    <h3>Semantic Segmentation</h3>
+    <div class="ulist">
+        <img class="plain" src="img/fsct.png" alt="classification of lead and wood" width="45%" style="float: right">
+        <ul style="list-style: none; width: 50%;">
+          <li><p>Forest Structural Complexity Tool (Krisanski et al., 2021)</p>
+            <li><p>Modification of Pointnet++</p>
+            <li><p>Trained on Eucalyptus plantation forest</p>
+            <li><p>How well does it transfer to other ecosystems and sensors?</p>
+            </li>
+            </li>
+            </li>
+          </li>
+        </ul>
+    </div>
+
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Semantic Segmentation
+
+![PointsToWood: A deep learning framework for complete
+canopy leaf-wood segmentation of TLS data across diverse
+European forests.](img/lw-paper.png) <!-- .element width="80%" class="plain"-->
+
+- Adapting Pointnet++ to focus on fine scale branching
+- Model trained on pan-European data representing complex natural forests
+- Model evaluated on unseen data, from range of sensors
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Semantic Segmentation
+
+![](img/seg.png) <!-- .element width="70%" class="plain"-->
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Semantic Segmentation
+
+![Table showing good balanced accuracy of new model](img/harry-table.png) <!-- .element width="60%" class="plain"-->
+
+Works well on unseen data - transfer learning!
+
+</textarea>
+</section>
+
+<section>
+    <h3>Individual trees</h3>
+
+      <table>
+        <tr>
+          <td style="border: none;"><ul><li>Height</li></ul></td>
+          <td style="border: none;"><ul><li>Crown area and volume</li></ul></td>
+        </tr>
+        <tr>
+          <td style="border: none;"><ul><li>Carbon</li></ul></td>
+          <td style="border: none;"><ul><li>Competition metrics</li></ul></td>
+        </tr>
+        <tr>
+          <td style="border: none;"><ul><li>Light availability</li></ul></td>
+          <td style="border: none;"><ul><li>Canopy hydrology</li></ul></td>
+        </tr>
+      </table>
+
+      <img class="plain" src="img/individuals.png" alt="Images of individual trees from a range of species" width="80%">
+
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Species classification
+
+How does a computer "see" a tree?
+
+- Lots of computer vision work focuses on human made objects: cars, buildings, chairs, teapots
+
+![Images of the Utah Teapot](img/teapot.png) <!-- .element width="100%" class="plain"-->
+
+[Computer History Museum](https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/206) <!-- .element: class="caption" -->
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Species classification
+
+- First step is often to convert 3D data into a single 2D view from the "optimal" camera position
+- Trees don't have an optimal camera position
+
+![Images of views of trees from different perspectives](img/view-of-trees.png) <!-- .element width="80%" class="plain"-->
+
+</textarea>
+</section>
+
+<section>
+    <h3>Species classification</h3>
+    <div class="ulist">
+        <img class="plain" src="img/viewpoints.jpg" alt="Views of a tree" width="45%" style="float: right">
+        <ul style="list-style: none; width: 50%;">
+          <li><p>Complex Mediterranean forest: 5 species, 2 genera, 2478 individuals</p>
+            <li><p>Data augmentation to balance classes</p>
+            <li><p>Six views of each tree</p>
+            <li><p>No leaf-wood separation</p>
+            </li>
+            </li>
+            </li>
+          </li>
+        </ul>
+    </div>
+<p class="caption"><a href="https://doi.org/10.1111/2041-210X.13981">Allen et al., 2022</a> </p>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Species classification
+
+![Table of model performance](img/species-class.png) <!-- .element width="60%" class="plain"-->
+
+Comparable performance to other models, which don't deal with complexity
+
+[Allen et al., 2022](https://doi.org/10.1111/2041-210X.13981) <!-- .element: class="caption" -->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+## Topography
+
+</textarea>
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Topography
+
+How do we generate bare earth DEMs from these data?
+
+1. As a byproduct of segmentation
+  - Everything that isn't leaf or wood must be ground!
+  - Computationally expensive
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Topography
+
+2. Cloth simulation
+
+![Cloth simulation schematic](img/cloth.png) <!-- .element width="80%" class="plain"-->
+
+[Zhang et al., 2016](https://doi.org/10.3390/rs8060501) <!-- .element: class="caption" -->
+
+</textarea>
+</section>
+
+
+<section>
+  <h3>Topography</h3>
+  <div class="ulist">
+      <img class="plain" src="img/hs.png" alt="DEM" width="55%" style="float: right">
+      <ul style="list-style: none; width: 40%;">
+        <li><p>High resolution (0.05m) data allows us to quantify microtopographic variability within forests</p>
+            <li><p> </p>
+          <li><p></p>
+            <li><p></p>
+
+          </li>
+          </li>
+        </li>
+      </li>
+      </ul>
+  </div>
+</section>
+
+
+<section>
+    <h3>Topography</h3>
+    <div class="ulist">
+        <img class="plain" src="img/tree-throw.jpg" alt="Image of a fallen tree in Poland" width="45%" style="float: right">
+        <ul style="list-style: none; width: 50%;">
+          <li><p>FUNDIV plots are mostly low gradient landscapes</p>
+            <li><p>Tree throw is most prevalent source of topographic roughness</p>
+            <li><p>Is the roughness signature ecologically mediated?</p>
+            <li><p></p>
+            </li>
+            </li>
+            </li>
+          </li>
+        </ul>
+    </div>
+
+</section>
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Topography
+
+Roughness as elevation variance
+
+![3 panel figure with a hillshade and then 2 measures of topographic variance](img/Variance_Plot02.png) <!-- .element width="100%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Topography
+
+Roughness as elevation range
+
+![3 panel figure with a hillshade and then 2 measures of topographic variance](img/Elevation_diff_Plot02.png) <!-- .element width="100%" class="plain"-->
+
+</textarea>
+</section>
+
+<section>
+    <h3>Surface hydrology</h3>
+    <div class="ulist">
+        <img class="plain" src="img/tc.png" alt="raster of tan curvature" width="55%" style="float: right">
+        <ul style="list-style: none; width: 40%;">
+          <li><p>Tangential curvature allows us to identify areas of accumulation and dispersion within a landscape</p>
+
+            <li><p></p>
+              <li><p></p>
+
+
+            </li>
+          </li>
+        </li>
+        </ul>
+    </div>
+    <p>Does this topographic variability manifest in tree morphology?</p>
+</section>
+
+<section>
+    <h3>Tree morphology</h3>
+    <div class="ulist">
+        <img class="plain" src="img/crown.png" alt="crown volume" width="40%" style="float: right">
+        <ul style="list-style: none; width: 55%;">
+          <li><p>Calculate crown volume on individuals as a metric of tree 'success'</p>
+              <li><p>Go beyond forest or stand-level metrics</p>
+            <li><p>Identify fine scale variations between and within species</p>
+            </li>
+            </li>
+          </li>
+        </ul>
+    </div>
+</section>
+
+
+<section>
+    <h3>Drought tolerance</h3>
+    <div class="ulist">
+        <img class="plain" src="img/spain.jpg" alt="alto tajo" width="45%" style="float: right">
+        <ul style="list-style: none; width: 50%;">
+          <li><p>We are using 4 species:</p>
+              <li><p style="color:#ff0000;">Pinus sylvestris</p>
+            <li><p style="color:#ff9292;">Pinus nigra</p>
+              <li><p style="color:#ffc8c8;">Quercus faginea</p>
+                <li><p style="color:#ffebeb;">Quercus ilex</p>
+
+            </li>
+            </li>
+          </li>
+        </li>
+        </li>
+        </ul>
+    </div>
+</section>
+
+
+
+<section data-markdown>
+<textarea data-template>
+
+### Species-landscape interactions
+
+We can use a mixed effect model to explore the relationship between these parameters, controlling for tree height:
+
+<br>
+
+$$Crown_{Vol} ∼ TreeHeight + Concavity + εpl$$
+
+
+</textarea>
+</section>
+
+<section data-markdown data-transition="none-out">
+<textarea data-template>
+
+### Species-landscape interactions
+
+![](img/mixedeffect0.png) <!-- .element width="76%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown data-transition="none">
+<textarea data-template>
+
+### Species-landscape interactions
+
+![](img/mixedeffect1.png) <!-- .element width="76%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown data-transition="none">
+<textarea data-template>
+
+### Species-landscape interactions
+
+![](img/mixedeffect2.png) <!-- .element width="76%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown data-transition="none">
+<textarea data-template>
+
+### Species-landscape interactions
+
+![](img/mixedeffect3.png) <!-- .element width="76%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown data-transition="none">
+<textarea data-template>
+
+### Species-landscape interactions
+
+![](img/mixedeffect4.png) <!-- .element width="76%" class="plain"-->
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Science conclusions
+
+- Individual tree point clouds unlock a wide variety of techniques and answers to complex questions
+- 3D environmental data is complex, and often off the shelf ML won't cut it
+- Good quality training data facilitates cross ecosystem transfer learning
+- Microtopography is related to functional traits
+- We don't have to over simplify!
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Data conclusions
+
+- Everyone who uses data should experience collecting it
+- Everyone who collects data should experience processing it
+- When working with field data, embrace "good enough"
+- However good AI/Satellites get, we'll always need fieldwork
+
+</textarea>
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### Thank you!
+
+![Photos of my collaborators](img/faces.png) <!-- .element width="100%" class="plain"-->
+
+Tom Hoseason, Emily Lines, Harry Owen, Lauren Davies <!-- .element class="small" -->
+
+Matt Allen, Milto Miltiadou, Will Flynn, Paloma Ruiz-Benito <!-- .element class="small" -->
+
+</textarea>
+</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+        // Parallax background image
+        parallaxBackgroundImage: "img/bg4.jpg", //https://unsplash.com/photos/OYFHT4X5isg
+
+      	// Parallax background size
+      	parallaxBackgroundSize: "4200px 1800px",
+
+        // Number of slides away from the current that are visible
+      	viewDistance: 3,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        math: {
+		           mathjax: 'reveal/plugin/MathJax/MathJax.js',
+		           config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+	            },
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/search/search.js', async: true },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+          { src: 'reveal/plugin/math/math.js', async: true },
+          { src: 'reveal/plugin/embed-tweet.js' },
+          { src: 'reveal/plugin/reveal-svg-fragment.js', condition: function() { return !!document.querySelector( '[data-svg-fragment]' ); } },
+          { src: 'reveal/plugin/reveal-svg-fragment-big.js', condition: function() { return !!document.querySelector( '[data-svg-fragment-big]' ); } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
